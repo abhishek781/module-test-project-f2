@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h4>Blogging Website</h4>
+        <button id="create-blog-btn">Create New Post</button>
+    </header>
+    <div id="blog-posts-container"></div>
+    <div id="modal-container">
+    <div id="modal">
+     <button id="close-modal-btn">X</button>
+     <form id="blog-form">
+                
+                <input type="text" id="blog-title" name="blog-title" required placeholder="Enter your heading...">
+               
+                <textarea id="blog-description" name="blog-description" required placeholder="Enter Your Blog Post.."></textarea>
+                <button type="submit" id="save-blog-btn">Publish Post</button>
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
